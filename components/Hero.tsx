@@ -44,12 +44,12 @@ const slides = [
     color: "emerald"
   },
   {
-    title: "Camera Repair, Service & Rent",
-    subtitle: "Expert repair and servicing for DSLR, Mirrorless, and digital cameras. Cameras and lenses available on rent.",
+    title: "CCTV Camera Service & Rent",
+    subtitle: "Expert installation, repair, and servicing for CCTV surveillance cameras. Security systems available on rent.",
     bgImage: "camera.png",
     mainImage: "camera.png",
     tag: "Expert Service",
-    highlight: "Camera Solutions",
+    highlight: "CCTV Solutions",
     cta: "Book Service",
     color: "purple"
   }
@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         setCurrentSlide((prev) => (prev + 1) % slides.length);
         setIsChanging(false);
       }, 600);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(timer);
   }, []);
 
@@ -101,23 +101,23 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Text Content */}
-          <div className={`w-full lg:w-1/2 transition-all duration-700 ${isChanging ? 'opacity-0 -translate-y-5 lg:-translate-x-10' : 'opacity-100 translate-y-0 lg:translate-x-0'}`}>
+          <div className="w-full lg:w-1/2">
             <div className="inline-flex items-center gap-2 bg-blue-500/10 backdrop-blur-xl border border-blue-400/30 px-4 py-1.5 rounded-full mb-6">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
               </span>
               <span className="text-blue-100 text-[10px] font-black uppercase tracking-[0.2em]">
-                {slides[currentSlide].highlight}
+                {slides[0].highlight}
               </span>
             </div>
 
             <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[1.1] md:leading-[0.95] mb-6 tracking-tight">
-              {slides[currentSlide].title}
+              {slides[0].title}
             </h1>
 
             <p className="text-base xs:text-lg md:text-2xl text-blue-100/70 mb-8 max-w-xl leading-relaxed font-medium">
-              {slides[currentSlide].subtitle}
+              {slides[0].subtitle}
             </p>
 
             <div className="flex flex-col xs:flex-row gap-4 mb-12">
@@ -125,7 +125,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 onClick={onOpenBooking}
                 className="w-full xs:w-auto bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 md:px-10 md:py-5 rounded-2xl font-black text-lg flex items-center justify-center gap-3 transition-all shadow-[0_20px_40px_-10px_rgba(37,99,235,0.5)] active:scale-95 animate-pulse-ring"
               >
-                {slides[currentSlide].cta}
+                {slides[0].cta}
               </button>
               <a 
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}

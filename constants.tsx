@@ -218,9 +218,9 @@ export const SERVICES = [
   {
     num: "11",
     slug: "camera-repair-and-rent",
-    title: "Camera Repair, Service & Rent",
-    h3: "Expert Camera Repair & Rentals",
-    desc: "Complete repair and servicing for DSLR, Mirrorless, and digital cameras. We also provide cameras and lenses on rent.",
+    title: "CCTV Camera Repair & Rent",
+    h3: "Expert CCTV Repair & Rentals",
+    desc: "Complete repair, installation, and servicing for CCTV and surveillance cameras. We also provide security systems on rent.",
     img: "camera.png",
     icon: (props: any) => <ICONS.Camera {...props} />,
     badge: "New"
