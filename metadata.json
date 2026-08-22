@@ -1,0 +1,8 @@
+
+{
+  "name": "Fix and Sell - Best AC & Appliance Repair in Delhi",
+  "description": "Looking for the best AC repair in Delhi? Fix and Sell provide affordable AC service, washing machine repair, fridge repair, installation & AMC services across Delhi NCR. Call now!",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
