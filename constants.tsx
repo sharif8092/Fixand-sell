@@ -3,8 +3,8 @@ import React from 'react';
 
 export const COMPANY_NAME = "Fix and Sell";
 export const BRAND_NAME = "Fix and Sell Delhi";
-export const PHONE_NUMBER = "+91981032945";
-export const WHATSAPP_NUMBER = "+91981032945";
+export const PHONE_NUMBER = "+91981032954";
+export const WHATSAPP_NUMBER = "+91981032954";
 export const EMAIL = "help@fixandsell.in";
 export const GST_NUMBER = "07AAZFD1338B1ZH";
 export const UDYAM_NUMBER = "UDYAM-DL-09-0043493";
