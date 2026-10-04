@@ -55,17 +55,16 @@ const Header: React.FC = () => {
             onClick={(e) => handleNavClick(e, '/')}
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg transition-transform group-hover:rotate-6">
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-              </svg>
-            </div>
-            <div>
-              <span className="block text-xl font-black text-slate-900 uppercase tracking-tighter leading-none">
-                Fix and Sell
+            <img src="/logo.png" alt={COMPANY_NAME} className="w-12 h-12 md:w-14 md:h-14 object-contain" />
+            <div className="flex flex-col justify-center">
+              <span className="block text-2xl font-black tracking-tighter leading-none mb-1">
+                <span className="text-slate-900">Fixand</span><span className="text-yellow-500">Sell</span>
               </span>
-              <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mt-1 block">
-                Delhi NCR Experts
+              <span className="text-[8px] sm:text-[9px] font-black text-slate-600 tracking-[0.2em] uppercase leading-none mb-1">
+                • REPAIR • RENT • SELL
+              </span>
+              <span className="text-[10px] sm:text-[11px] font-semibold text-slate-800 italic tracking-wide leading-none">
+                Your Comfort. Our Service.
               </span>
             </div>
           </Link>
@@ -122,10 +121,14 @@ const Header: React.FC = () => {
           {/* Frosted Black Header with Color Grading */}
           <div className="bg-gradient-to-br from-slate-900/95 to-black/90 backdrop-blur-xl p-6 flex justify-between items-center rounded-t-[2.5rem] border-b border-white/10 shadow-sm">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 bg-white/10 rounded-xl flex items-center justify-center text-blue-500 font-black text-[12px] border border-blue-500/20 shadow-inner">DR</div>
-              <div className="flex flex-col">
-                <span className="font-black text-white text-[13px] uppercase tracking-widest leading-none">Main Menu</span>
-                <span className="text-[8px] font-bold text-slate-400 uppercase tracking-widest mt-1 opacity-80">Authorized Hub</span>
+              <img src="/logo.png" alt={COMPANY_NAME} className="w-10 h-10 object-contain bg-white rounded p-1" />
+              <div className="flex flex-col justify-center">
+                <span className="block text-xl font-black tracking-tighter leading-none mb-1">
+                  <span className="text-white">Fixand</span><span className="text-yellow-500">Sell</span>
+                </span>
+                <span className="text-[6px] font-bold text-slate-400 tracking-[0.2em] uppercase leading-none">
+                  • REPAIR • RENT • SELL
+                </span>
               </div>
             </div>
             <button
@@ -194,7 +197,7 @@ const Header: React.FC = () => {
 
           {/* Panel Footer - Premium Grading */}
           <div className="p-6 bg-white/20 backdrop-blur-xl border-t border-black/5 text-center rounded-b-[2.5rem]">
-            <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.3em] mb-1 leading-none">Fix and Sell Delhi</p>
+            <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.3em] mb-1 leading-none">FixandSell Delhi</p>
             <p className="text-[8px] font-bold text-slate-400 uppercase tracking-widest opacity-60">Authorized Service Hub • NCR</p>
           </div>
         </div>

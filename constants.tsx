@@ -1,14 +1,14 @@
 
 import React from 'react';
 
-export const COMPANY_NAME = "Fix and Sell";
-export const BRAND_NAME = "Fix and Sell Delhi";
-export const PHONE_NUMBER = "+91981032954";
-export const WHATSAPP_NUMBER = "+91981032954";
+export const COMPANY_NAME = "FixandSell";
+export const BRAND_NAME = "FixandSell Delhi";
+export const PHONE_NUMBER = "+918809164703";
+export const WHATSAPP_NUMBER = "+918809164703";
 export const EMAIL = "help@fixandsell.in";
-export const GST_NUMBER = "07AAZFD1338B1ZH";
+export const GST_NUMBER = "07CTCPA1067J1ZY";
 export const UDYAM_NUMBER = "UDYAM-DL-09-0043493";
-export const ADDRESS = "Ground Floor Shop, Jai Ram House, Block-B, Hari Nagar Part-2, Badarpur, New Delhi - 110044";
+export const ADDRESS = "G/F, H.No. 4, Hari Nagar Part-2, Near Pratham Garden, Badarpur, New Delhi-110044";
 
 export const AREAS = ["Noida", "Ghaziabad", "Gurgaon", "Faridabad", "Greater Noida", "New Delhi",
   "Badarpur", "South East Delhi", "Rohini", "Dwarka", "Janakpuri", "Laxmi Nagar", "Karol Bagh",

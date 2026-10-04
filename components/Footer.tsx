@@ -11,10 +11,15 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-                 DR
+              <img src="/logo.png" alt={COMPANY_NAME} className="w-12 h-12 object-contain bg-white rounded p-1" />
+              <div className="flex flex-col">
+                <span className="text-2xl font-black tracking-tighter leading-none mb-1">
+                  <span className="text-white">Fixand</span><span className="text-yellow-500">Sell</span>
+                </span>
+                <span className="text-[7px] font-bold text-slate-400 tracking-[0.2em] uppercase leading-none">
+                  • REPAIR • RENT • SELL
+                </span>
               </div>
-              <span className="text-xl font-black text-white tracking-tighter uppercase">{COMPANY_NAME}</span>
             </div>
             <p className="text-sm leading-relaxed">
               Legally registered enterprise providing premium appliance maintenance. MSME Verified service across Delhi NCR.

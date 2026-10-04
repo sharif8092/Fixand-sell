@@ -84,7 +84,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ onOpenBooking }) => {
                 <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
                   <p>{service.desc}</p>
                   <p>
-                    At Fix and Sell, we provide professional and reliable {service.title.toLowerCase()} services across all major areas of Delhi, Noida, Gurgaon, and Faridabad. Our team of certified technicians is equipped with modern tools and genuine spare parts to ensure high-quality repairs.
+                    At FixandSell, we provide professional and reliable {service.title.toLowerCase()} services across all major areas of Delhi, Noida, Gurgaon, and Faridabad. Our team of certified technicians is equipped with modern tools and genuine spare parts to ensure high-quality repairs.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
                     {[

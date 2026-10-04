@@ -59,7 +59,7 @@ const QuickBookingModal: React.FC<QuickBookingModalProps> = ({ isOpen, onClose, 
           </button>
           
           <h3 className="text-3xl font-black tracking-tight mb-2">Quick Booking</h3>
-          <p className="text-blue-100 font-medium opacity-80 uppercase text-[10px] tracking-widest">Authorized Fix and Sell Dispatch</p>
+          <p className="text-blue-100 font-medium opacity-80 uppercase text-[10px] tracking-widest">Authorized FixandSell Dispatch</p>
         </div>
         
         <form onSubmit={handleSubmit} className="p-8 md:p-10 space-y-6">

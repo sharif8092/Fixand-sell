@@ -101,22 +101,14 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Text Content */}
-          <div className="w-full lg:w-1/2">
-            <div className="inline-flex items-center gap-2 bg-blue-500/10 backdrop-blur-xl border border-blue-400/30 px-4 py-1.5 rounded-full mb-6">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
-              </span>
-              <span className="text-blue-100 text-[10px] font-black uppercase tracking-[0.2em]">
-                {slides[0].highlight}
-              </span>
-            </div>
+          <div className="w-full lg:w-1/2 lg:py-16 xl:py-24">
 
-            <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[1.1] md:leading-[0.95] mb-6 tracking-tight">
+
+            <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-[4.5rem] xl:text-[5.5rem] font-black text-white leading-[1.1] md:leading-[1.0] mb-6 tracking-tight">
               {slides[0].title}
             </h1>
 
-            <p className="text-base xs:text-lg md:text-2xl text-blue-100/70 mb-8 max-w-xl leading-relaxed font-medium">
+            <p className="text-base xs:text-lg md:text-xl xl:text-[1.4rem] text-blue-100/70 mb-8 max-w-xl leading-relaxed font-medium">
               {slides[0].subtitle}
             </p>
 
