@@ -4,7 +4,7 @@ import { PHONE_NUMBER, WHATSAPP_NUMBER, ICONS, COMPANY_NAME } from '../constants
 
 const slides = [
   {
-    title: "Best AC Repair Service in Delhi NCR – Fast & Affordable",
+    title: "Best Repair Service in Delhi NCR – Fast & Affordable",
     subtitle: "Certified & authorized AC technicians in Delhi for Split and Window AC repair, gas refilling, cooling issues, installation & maintenance.",
     bgImage: "ac1.png",
     mainImage: "ac2.png",
@@ -97,7 +97,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         <div className="absolute inset-0 bg-dots opacity-10"></div>
       </div>
 
-      <div className="container mx-auto px-6 md:px-8 relative z-10 py-16 md:py-0">
+      <div className="container mx-auto pl-2 pr-6 md:pl-4 md:pr-8 relative z-10 py-16 md:py-0">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Text Content */}

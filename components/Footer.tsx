@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { COMPANY_NAME, PHONE_NUMBER, EMAIL, ADDRESS, AREAS, ICONS, GST_NUMBER, UDYAM_NUMBER, SERVICES } from '../constants';
+import { COMPANY_NAME, PHONE_NUMBER, ALTERNATE_PHONE_NUMBER, EMAIL, ADDRESS, AREAS, ICONS, GST_NUMBER, UDYAM_NUMBER, SERVICES } from '../constants';
 
 const Footer: React.FC = () => {
   return (
@@ -52,6 +52,10 @@ const Footer: React.FC = () => {
               <li className="flex items-center gap-3">
                 <ICONS.Phone className="w-4 h-4 text-blue-500" />
                 <span className="text-white font-bold">{PHONE_NUMBER}</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <ICONS.Phone className="w-4 h-4 text-blue-500" />
+                <span className="text-white font-bold">{ALTERNATE_PHONE_NUMBER}</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-4 h-4 mt-1">
