@@ -137,7 +137,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               </div>
               <div className="w-px h-8 bg-white/20"></div>
               <div className="flex flex-col">
-                <span className="text-white font-black text-xl">50K+ AC Repairs</span>
+                <span className="text-white font-black text-xl">50K+ Repair</span>
                 <span className="text-[10px] text-blue-200 font-bold uppercase tracking-widest">Completed</span>
               </div>
             </div>
